@@ -50,7 +50,7 @@ body {
   nav {
     display: flex;
     justify-content: flex-end;
-    width: 100%;
+    width: 20%;
     padding-right: 2%;
   }
   
@@ -58,7 +58,7 @@ body {
     width: 400px;
     height: 555px;
     border-radius: 100%;
-    margin: 15% auto;
+    margin: 10% auto;
     grid-column: 3/4;
   }
   
@@ -77,7 +77,7 @@ body {
   
   .small-text {
     grid-column: 2/3;
-    color: white;
+    color: rgb(11, 136, 49);
     font-size: 10px;
     margin: 3% auto;
   }

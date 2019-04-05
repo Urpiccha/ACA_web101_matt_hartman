@@ -1,0 +1,18 @@
+body {
+    background-color: #ccc;
+}
+
+main {
+    width:50%;
+    background-color: #eee;
+    margin: auto;
+    padding: 5px
+}
+
+article:nth-of-type(even) {
+    background: hotpink;
+  }
+
+  article:nth-of-type(odd) {
+    background: rgb(46, 240, 7);
+  }
