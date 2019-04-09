@@ -1,18 +1,124 @@
 body {
-    background-color: #ccc;
+  background-color: firebrick;
+  color:yellowgreen;
+  font-family:'Germania One', cursive;
+  font-size:40px;
+  font-weight: 700;
+  line-height: 1em;
+  margin:0;
 }
 
-main {
-    width:50%;
-    background-color: #eee;
-    margin: auto;
-    padding: 5px
+.container{
+  width: 80%;
+  margin: auto;
 }
 
-article:nth-of-type(even) {
-    background: hotpink;
+#navbar{
+  border: black solid;
+  overflow:hidden;
+  padding: 10px;
+  margin:auto;
+}
+
+#navbar ul{
+  padding:0;
+  list-style: none;
+}
+
+#navbar li{
+  display:inline;
+}
+
+#navbar a{
+  color: dodgerblue;
+  text-decoration: none;
+  font-size: 25px;
+  padding-right: 25px;
+}
+
+#showcase{
+  background-image: url('./images/showcase.jpg');
+  background-position: center right;
+  min-height:300px;
+  margin-bottom:50px;
+  text-align: center:
+}
+
+#showcase h1{
+  color:black;
+  font-size: 50px;
+  line-height: 1.8em;
+  padding-top: 45px;
+}
+
+main{
+  width:50%;
+  background-color: ivory;
+  margin: auto;
+  padding: 5px
+}
+
+#main-header{
+  height: 70px;
+  text-align: center; 
+  border: black 5px solid;
+  margin: 10px;
+  background: ivory;
+  color: black;
+  padding-top: 17px;
+}
+
+.box-1{
+  background-color: black;
+  color: dodgerblue;
+  border: 15px ivory solid;
+  border-style:double;
+  padding:40px;
+  margin-top:40px
+}
+
+.box-1>h1{
+  font-family: "Palatino, Georgia, serif";
+  font-weight:600;
+  font-style:italic;
+  text-decoration:underline;
+  text-transform:uppercase;
+  line-height: 1.8em;
+}
+
+  .box-2{
+    border: dodgerblue 10px dotted;
+    padding:20px;
+    margin:20px 0;
   }
 
-  article:nth-of-type(odd) {
-    background: rgb(46, 240, 7);
-  }
+.article>h2{
+  line-height:1.8em;
+}
+
+
+.button{
+  background-color: ivory;
+  color: black
+  padding:20px 45px;
+  border:none;
+}
+
+
+a{
+  text-decoration: none;
+  color: dodgerblue;
+}
+
+a:hover{
+  color: hotpink;
+}
+
+a:active{
+  color: ivory;
+}
+
+p:hover:first-letter{ 
+  font-size: 200%;
+  color:hotpink;
+}
