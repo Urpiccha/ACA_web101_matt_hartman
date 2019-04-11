@@ -1,0 +1,81 @@
+#main-header{
+background-color: black;
+min-height: 200px;
+text-align: left;
+}
+
+#sidebar{
+    float:right;
+    width:70%;
+    background: green;
+    color:ivory;
+    padding:30px;
+    box-sizing: border-box;
+}
+
+/* #sidebar{
+    float:right;
+    width:70%;
+    background: green;
+    color:ivory;
+    padding:30px;
+    box-sizing: border-box;
+} */
+    
+
+h1{
+    font-size: 50px;
+    color:hotpink;
+    text-align: center;
+}
+
+#box-1{
+    margin:auto;
+    float:left;
+    min-height:70px;
+    background: hotpink;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding:10px;
+}
+
+section {
+    background-color: antiquewhite;
+    width: 25%;
+}
+
+.block{
+        float: right;
+        width: 33.3%;
+        border: 5px solid black;
+        padding: 10px;
+        box-sizing: border-box;
+}
+
+.col-s1{
+    background:orange;
+    color:black;
+    border:dodgerblue solid;
+    min-height: 45px;
+    text-align:right;
+}
+
+#main{
+    display: inline-block;
+    background-color: yellowgreen;
+}
+
+.skills{
+    float:left;
+    height:300px;
+    width: 20%
+}
+
+.divider{
+    width:2px;
+    padding-top:23px;
+}
