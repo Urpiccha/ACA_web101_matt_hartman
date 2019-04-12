@@ -41,7 +41,7 @@ body {
   background-position: center right;
   min-height:300px;
   margin-bottom:50px;
-  text-align: center:
+  text-align: center;
 }
 
 #showcase h1{
@@ -99,7 +99,7 @@ main{
 
 .button{
   background-color: ivory;
-  color: black
+  color: black;
   padding:20px 45px;
   border:none;
 }
