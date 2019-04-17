@@ -1,0 +1,15 @@
+@media (min-width: 768px) {
+	main {
+		display: inline-block;
+		max-width: 760px;
+		margin-left: 1fr;
+	}
+
+	nav {
+		display: grid;
+	}
+
+	#portfolio {
+		display: none;
+	}
+}
