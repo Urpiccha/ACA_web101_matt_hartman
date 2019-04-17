@@ -1,0 +1,21 @@
+@media (max-width: 576px) {
+	.wrapper {
+		width: 360px;
+		height: 600px;
+		border-bottom: none;
+		float: left;
+	}
+
+	h1 h2 #portfolio .small-text {
+		padding-left: 200px;
+		display: block;
+		width: 360px;
+		height: 600px;
+		border-bottom: none;
+	}
+
+	#profile-pic {
+		height: 400px;
+		width: 300px;
+	}
+}
