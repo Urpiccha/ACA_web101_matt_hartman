@@ -1,0 +1,23 @@
+.container {
+	display: grid;
+	grid-template-columns: repeat(4, 100px);
+	grid-template-rows: repeat(6, 30px);
+	grid-gap: 3px;
+	height: 300px;
+	width: auto;
+}
+
+#screen {
+	grid-column: span 4;
+}
+
+.button,
+.button-del,
+.button-clear {
+	border: 1px solid black;
+	text-align: center;
+}
+
+.container :nth-child(n + 18) {
+	grid-column: span 2;
+}

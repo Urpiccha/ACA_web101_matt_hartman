@@ -1,0 +1,223 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	/* background: coral; */
+	padding-bottom: 40px;
+	padding-top: 40px;
+	background-image: url(http://www.bikepacking.com/wp-content/uploads/2018/10/ardennes-arbalete-bikepacking-route_21.jpg);
+	background-image: auto;
+}
+
+header {
+	display: flex;
+	height: 200px;
+	/* background: aquamarine; */
+}
+header > h1 {
+	display: inline;
+	text-align: center;
+	padding: 25px;
+	margin: auto;
+	border: 5px dotted red;
+	color: red;
+}
+
+header > .date {
+	/* background: darkviolet; */
+}
+
+header > p {
+	display: flex;
+	flex-flow: row-reverse;
+}
+.container {
+	display: grid;
+	/* background: blue; */
+}
+
+.calculator {
+	background: ivory;
+	max-width: 400px;
+	margin: 0 auto;
+	border: 5px solid yellow;
+	border-radius: 7px;
+}
+
+.calculator input {
+	background: none;
+	border: none;
+	box-shadow: 1em;
+	width: 100%;
+	border-bottom: 4px solid hotpink;
+	padding: 25px;
+	text-align: right;
+	font-size: 50px;
+}
+
+.calculator-buttons {
+	padding: 20px;
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	/* grid-template: repeat(5,1fr) / repeat(4,1fr); shorthand for previous lines of code. Rows first Columns Second */
+	grid-gap: 15px;
+}
+
+.calc-button {
+	background: dodgerblue;
+	color: hotpink;
+	border: 2px solid hotpink;
+	padding: 20px;
+	border-radius: 7px;
+	font-size: 25px;
+	cursor: pointer;
+}
+
+.is-clear,
+.is-zero {
+	grid-column: span 3;
+}
+
+.is-clear {
+	background: yellow;
+}
+
+.is-equals {
+	background: green;
+}
+
+.is-zero {
+	background: black;
+}
+
+img {
+	height: 300px;
+	width: 300px;
+}
+
+.to-do {
+	display: flex;
+	/* background: midnightblue; */
+	height: 300px;
+}
+
+section {
+	font-weight: 300;
+	margin: 30px;
+	color: ivory;
+	display: flex;
+	flex-flow: row wrap;
+	flex: 300px;
+}
+
+section > article {
+	border: 5px solid brown;
+	color: red;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+/* #to-do {
+	height: 300px;
+	width: 300px;
+	float: right;
+} */
+
+.header-2 > ul {
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	cursor: pointer;
+	position: relative;
+	padding: 12px 8px 12px 40px;
+	background: lightcoral;
+	font-size: 18px;
+	transition: 0.2s;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+ul li:nth-child(odd) {
+	background: yellow;
+}
+
+ul li:hover {
+	background: hotpink;
+}
+
+ul li.checked {
+	background: black;
+	color: #fff;
+	text-decoration: line-through;
+}
+
+ul li.checked::before {
+	content: "";
+	position: absolute;
+	border-color: #fff;
+	border-style: solid;
+	border-width: 0 2px 2px 0;
+	top: 10px;
+	left: 16px;
+	transform: rotate(45deg);
+	height: 15px;
+	width: 7px;
+}
+.close {
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 12px 16px 12px 16px;
+}
+.close:hover {
+	background-color: #f44336;
+	color: white;
+}
+
+.header-2 {
+	background-color: #f44336;
+	padding: 30px 40px;
+	color: white;
+	text-align: center;
+}
+
+.header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+input {
+	margin: 0;
+	border: none;
+	border-radius: 0;
+	width: 75%;
+	padding: 10px;
+	float: left;
+	font-size: 16px;
+}
+
+.add-button {
+	padding: 10px;
+	width: 25%;
+	background: #d9d9d9;
+	color: #555;
+	float: left;
+	text-align: center;
+	font-size: 16px;
+	cursor: pointer;
+	transition: 0.3s;
+	border-radius: 0;
+}
+
+.add-button:hover {
+	background-color: #bbb;
+}
