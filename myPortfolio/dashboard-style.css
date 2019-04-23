@@ -8,11 +8,15 @@ body {
 	padding-top: 40px;
 	background-image: url(http://www.bikepacking.com/wp-content/uploads/2018/10/ardennes-arbalete-bikepacking-route_21.jpg);
 	background-image: auto;
+	display: flex;
+	flex-direction: row-reverse;
 }
 
 header {
 	display: flex;
 	height: 200px;
+	justify-self: center;
+	flex-flow: row wrap;
 	/* background: aquamarine; */
 }
 header > h1 {
@@ -24,20 +28,19 @@ header > h1 {
 	color: red;
 }
 
-header > .date {
-	/* background: darkviolet; */
-}
-
 header > p {
 	display: flex;
 	flex-flow: row-reverse;
 }
+
 .container {
-	display: grid;
+	display: flex;
+	flex-direction: column;
 	/* background: blue; */
 }
 
 .calculator {
+	float: left;
 	background: ivory;
 	max-width: 400px;
 	margin: 0 auto;
@@ -93,7 +96,7 @@ header > p {
 }
 
 img {
-	height: 300px;
+	height: 400px;
 	width: 300px;
 }
 
@@ -220,4 +223,25 @@ input {
 
 .add-button:hover {
 	background-color: #bbb;
+}
+
+.date {
+	display: flex;
+	justify-content: flex-end;
+}
+
+@media (min-width: 400px) {
+	body {
+		display: flex;
+		flex-direction: column;
+		flex: 200px;
+	}
+}
+
+@media (min-width: 500px) {
+	body {
+		display: flex;
+		flex-flow: row wrap;
+		flex: 100px;
+	}
 }
