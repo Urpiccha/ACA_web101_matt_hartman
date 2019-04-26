@@ -1,0 +1,92 @@
+body {
+	font-family: "Germania One", cursive;
+	font-weight: 400;
+	background-repeat: no-repeat;
+	background-size: 1600px 1000px;
+	width: 100vw;
+	height: 100vh;
+}
+
+.logo {
+	width: 150px;
+	height: 150px;
+}
+
+header {
+	background: lightcoral;
+	text-align: center;
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+}
+
+.nav-toggle {
+	display: none;
+}
+
+.nav-toggle-label {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-left: 1em;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.nav-toggle-label span,
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+	display: block;
+	background: hotpink;
+	height: 3px;
+	width: 3px;
+	border-radius: 3px;
+	position: relative;
+}
+
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+	content: "";
+	position: absolute;
+}
+
+.nav-toggle-label span::before {
+	bottom: 7px;
+}
+
+nav {
+	position: absolute;
+	text-align: left;
+	top: 100%;
+	left: 0%;
+	background: lightcoral;
+	width: 100%;
+	display: none;
+}
+
+nav ul {
+	margin: 0%;
+	padding: 0%;
+	list-style: none;
+}
+
+nav li {
+	margin-bottom: 1em;
+	margin-left: 1em;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	font-size: 1.2rem;
+	text-transform: uppercase;
+}
+
+nav a:hover {
+	color: #000;
+}
+
+.nav-toggle:checked ~ nav {
+	display: block;
+}
