@@ -37,11 +37,11 @@ body {
 }
 
 #showcase{
-  background-image: url('./images/showcase.jpg');
+  background-image: url('../images/showcase.jpg');
   background-position: center right;
   min-height:300px;
   margin-bottom:50px;
-  text-align: center:
+  text-align: center;
 }
 
 #showcase h1{
