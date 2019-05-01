@@ -9,6 +9,39 @@ header {
 	width: 960px;
 }
 
+#body > ul {
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 24px 0 0;
+	width: 960px;
+}
+
+ul {
+	display: block;
+	list-style-type: disc;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	padding-inline-start: 40px;
+}
+
+ul {
+	list-style-type: disc;
+}
+
+#body > ul li a span {
+	display: block;
+	margin: 0;
+	padding: 33px 0 0;
+}
+
+#navigation {
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+}
+
 .dudes {
 	display: flex;
 	flex-direction: row;
@@ -34,6 +67,39 @@ header {
 	list-style: none;
 	margin: auto;
 	padding: 0 19px;
+}
+
+#header ul li a {
+	color: #252525;
+	display: inline-block;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0 0 3px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#body #beacon div span {
+	background: #252525;
+	color: #fff;
+	display: inline-block;
+	font-size: 20px;
+	margin: 7px 0;
+	padding: 12px 27px;
+}
+
+#body #beacon div a {
+	background: #0ba39c;
+	color: #fff;
+	display: inline-block;
+	font-size: 16px;
+	margin: 15px 0 0;
+	padding: 26px 27px 22px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
 }
 
 #body {
@@ -103,6 +169,15 @@ div {
 }
 
 #footer {
+	background: #252525;
+	margin: 0;
+	padding: 36px 0 42px;
+}
+
+div {
+	display: block;
+}
+/* #footer {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
@@ -110,6 +185,14 @@ div {
 	color: white;
 	margin-top: 40px;
 	padding: 36px 0 42px;
+} */
+
+p {
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
 }
 
 #footer > li {
@@ -122,6 +205,14 @@ div {
 	overflow: hidden;
 	padding: 0;
 	width: 960px;
+}
+
+#footer div p {
+	color: #fff;
+	float: left;
+	line-height: 44px;
+	margin: 0 0 0 10px;
+	padding: 0;
 }
 
 #footer div ul {
@@ -140,4 +231,26 @@ div {
 	margin: 0 10px;
 	padding: 0;
 	width: 44px;
+}
+
+#footer div ul li #twitter {
+	background-position: 0 0;
+}
+
+#footer div ul li #facebook {
+	background-position: 0 -44px;
+}
+
+#footer div ul li #googleplus {
+	background-position: 0 -88px;
+}
+
+#footer div ul li #pinterest {
+	background-position: 0 -132px;
+}
+
+.spacer {
+	padding: 20px 0;
+	text-align: center;
+	background: ivory;
 }
