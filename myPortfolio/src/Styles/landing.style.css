@@ -90,7 +90,7 @@ h2 {
 	margin: 3% auto;
 }
 
-button {
+#button {
 	grid-column: 2/3;
 	margin: 3% auto;
 	width: 70%;

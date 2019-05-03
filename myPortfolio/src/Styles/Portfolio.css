@@ -1,0 +1,137 @@
+body {
+	background: firebrick;
+	font-family: "Germania One", cursive;
+}
+
+header {
+	font-family: "Nosifer", cursive;
+	font-weight: 4000;
+	color: hotpink;
+	background: black;
+	border: 20px hotpink double;
+	display: flex;
+	justify-content: center;
+}
+
+.nav {
+	background-color: yellow;
+	color: black;
+	list-style: none;
+	text-align: right;
+	padding: 20px 0 20px 0;
+}
+
+.nav > li {
+	display: inline-block;
+	padding: 0 25px 0 25px;
+}
+
+.nav > li > a {
+	text-decoration: none;
+	color: red;
+}
+
+.container {
+	border: 5px dodgerblue solid;
+	/* margin-top: 40px;
+	margin-bottom: 80px; */
+	margin: 40px 20px 80px 20px;
+	padding: 25px;
+}
+
+.container > article {
+	display: flex;
+	justify-content: space-around;
+	flex-flow: row wrap;
+}
+
+.container-2 > article {
+	border: 10px dodgerblue double;
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	padding: 20px;
+	margin: 10px;
+	width: 300px;
+}
+
+.container-2 > a {
+	list-style: none;
+	padding: 30px;
+}
+
+.container-2 > h3 {
+	padding-top: 30px;
+	margin: auto;
+}
+
+.container-3 {
+	display: inline-flex;
+	flex-direction: row-reverse;
+}
+
+.container-3 > article {
+	border: 10px dodgerblue double;
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	padding: 20px;
+	margin: 10px;
+	width: 300px;
+}
+
+.container-3 > a {
+	list-style: none;
+	padding: 30px;
+}
+
+.container-3 > h3 {
+	padding-top: 30px;
+	margin: auto;
+}
+
+section {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#info {
+	float: right;
+}
+
+a {
+	list-style: none;
+}
+
+footer {
+	font-family: "Nosifer", cursive;
+	border: 4px double dodgerblue;
+	margin: 80px;
+	width: 160px;
+	padding: 3px;
+}
+
+@media (min-width: 414px) {
+	.iframe-container {
+		position: relative;
+		width: 100%;
+		padding-bottom: 56.25%;
+		height: 0;
+	}
+
+	.iframe-container > iframe {
+		position: absolute;
+		top: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+	footer {
+		display: flex;
+		flex-flow: row wrap;
+	}
+
+	.container-3 {
+		display: flex;
+		flex-flow: row wrap;
+	}
+}
