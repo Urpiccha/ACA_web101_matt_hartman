@@ -168,16 +168,17 @@ div {
 	flex-direction: row wrap;
 }
 
-#footer {
+/* #footer {
 	background: #252525;
+	color: white;
 	margin: 0;
 	padding: 36px 0 42px;
-}
+} */
 
 div {
 	display: block;
 }
-/* #footer {
+#footer {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
@@ -185,7 +186,7 @@ div {
 	color: white;
 	margin-top: 40px;
 	padding: 36px 0 42px;
-} */
+}
 
 p {
 	display: block;
@@ -216,7 +217,7 @@ p {
 }
 
 #footer div ul {
-	display: block;
+	display: flex;
 	float: right;
 	margin: 0;
 	overflow: hidden;
