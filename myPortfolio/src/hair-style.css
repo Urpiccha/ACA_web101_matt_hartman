@@ -1,0 +1,251 @@
+html {
+	display: block;
+}
+
+header {
+	margin: 0 auto;
+	padding: 44px 0 50px;
+	text-align: center;
+	width: 960px;
+}
+
+#body > ul {
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 24px 0 0;
+	width: 960px;
+}
+
+ul {
+	display: block;
+	list-style-type: disc;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	padding-inline-start: 40px;
+}
+
+ul {
+	list-style-type: disc;
+}
+
+#body > ul li a span {
+	display: block;
+	margin: 0;
+	padding: 33px 0 0;
+}
+
+#navigation {
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+}
+
+.dudes {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	list-style: none;
+	padding: 24px;
+}
+
+#header > .logo {
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+	width: 340px;
+}
+
+#header ul {
+	margin: 0;
+	padding: 56px 0 0;
+}
+
+#header ul li {
+	display: inline;
+	list-style: none;
+	margin: auto;
+	padding: 0 19px;
+}
+
+#header ul li a {
+	color: #252525;
+	display: inline-block;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0 0 3px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+li a :hover {
+	color: #0ba39c;
+}
+
+#body #beacon div span {
+	background: #252525;
+	color: #fff;
+	display: inline-block;
+	font-size: 20px;
+	margin: 7px 0;
+	padding: 12px 27px;
+}
+
+#body #beacon div a {
+	background: #0ba39c;
+	color: #fff;
+	display: inline-block;
+	font-size: 16px;
+	margin: 15px 0 0;
+	padding: 26px 27px 22px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#body {
+	margin: 0;
+	padding: 0 0 30px;
+	text-align: center;
+}
+
+#body #beacon {
+	margin: 0 0 13px;
+	padding: 0;
+	position: relative;
+	width: 100%;
+}
+
+#body #beacon div {
+	left: 50%;
+	margin-left: -480px;
+	margin-top: -171px;
+	padding: 0 0 0 470px;
+	position: absolute;
+	top: 50%;
+	text-align: left;
+	width: 490px;
+}
+
+#body #beacon div h2 {
+	background: #fff;
+	color: #000;
+	display: inline-block;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+	margin: 0 0 18px;
+	padding: 23px 27px 20px;
+	text-transform: uppercase;
+}
+
+h2 {
+	display: block;
+	font-size: 1.5em;
+	margin-block-start: 0.83em;
+	margin-block-end: 0.83em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	font-weight: bold;
+}
+
+body {
+	background: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1;
+	margin: 0;
+	min-width: 960px;
+	padding: 0;
+}
+
+div {
+	display: block;
+}
+
+#featured {
+	display: flex;
+	flex-direction: row wrap;
+}
+
+#footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	background: #252525;
+	color: white;
+	margin-top: 40px;
+	padding: 36px 0 42px;
+}
+
+p {
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+}
+
+#footer > li {
+	display: flex;
+	flex-direction: row;
+}
+
+#footer div {
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
+	width: 960px;
+}
+
+#footer div p {
+	color: #fff;
+	float: left;
+	line-height: 44px;
+	margin: 0 0 0 10px;
+	padding: 0;
+}
+
+#footer div ul {
+	display: flex;
+	float: right;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	width: 256px;
+}
+
+#footer div ul li {
+	display: block;
+	float: left;
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+	width: 44px;
+}
+
+#footer div ul li #twitter {
+	background-position: 0 0;
+}
+
+#footer div ul li #facebook {
+	background-position: 0 -44px;
+}
+
+#footer div ul li #googleplus {
+	background-position: 0 -88px;
+}
+
+#footer div ul li #pinterest {
+	background-position: 0 -132px;
+}
+
+.spacer {
+	padding: 20px 0;
+	text-align: center;
+	background: ivory;
+}
