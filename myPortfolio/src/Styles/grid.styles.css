@@ -1,0 +1,169 @@
+/* * {
+	margin: 0;
+	padding: 0;
+} */
+.nav {
+	background: #ffffff;
+	color: black;
+	list-style: none;
+	text-align: right;
+	padding: 20px 0 20px 0;
+}
+
+.nav li {
+	display: inline-block;
+	padding: 0 25px 0 25px;
+	font-size: 20px;
+}
+
+.nav li a {
+	text-decoration: none;
+	color: firebrick;
+}
+
+.nav li a:hover {
+	color: seagreen;
+}
+
+.welcome {
+	color: black;
+	float: left;
+	padding-left: 20px;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: "Germania One";
+}
+
+.welcome a {
+	text-decoration: none;
+	color: firebrick;
+}
+
+.banner {
+	width: 100%;
+	display: block;
+}
+
+.banner-img {
+	width: 100%;
+	display: block;
+}
+
+.site {
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr;
+	grid-template-rows: auto 1fr 2fr 1fr;
+	grid-gap: 10px;
+	grid-template-areas:
+		"title title title"
+		"main header header"
+		"main . sidebar"
+		". footer footer";
+	/* border: 2px solid black; */
+	padding: 2px;
+	font-family: "Germania One", cursive;
+	font-family: "Nosifer", cursive;
+}
+
+h1 {
+	padding-right: 20px;
+	color: dodgerblue;
+}
+
+h2 {
+	color: hotpink;
+	text-decoration: underline;
+}
+
+h3 {
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	color: lightcoral;
+}
+
+.header {
+	grid-area: header;
+}
+
+.header > iframe {
+	position: relative;
+	top: 0;
+	width: 100%;
+	height: 80%;
+}
+
+.page-title {
+	grid-area: title;
+	/* grid-column: 1/4;
+	grid-row: 1/2; */
+	/* border: 2px solid black;
+	background: firebrick; */
+	text-align: center;
+	/* height: 10px; */
+}
+
+.main-content {
+	grid-area: main;
+	/* border: 2px solid black; */
+	/* background: yellowgreen; */
+	/* grid-column: 1/2;
+	grid-row: 2/4; */
+	/* height: 60px; */
+}
+
+blockquote {
+	display: block;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 40px;
+	margin-right: 40px;
+	font-family: "Germania One";
+	font-weight: 900;
+	font-size: 23px;
+}
+
+.sidebar {
+	grid-area: sidebar;
+	border: 2px solid black;
+	padding-top: 45px;
+	background: orange;
+	height: 150px;
+	padding: 17px;
+	/* height: 20px; */
+}
+
+.sidebar > ul li {
+	list-style: none;
+}
+
+.footer {
+	grid-area: footer;
+	font-family: "Germania One", cursive;
+	/* border: 2px solid black;
+	background: dodgerblue; */
+	/* height: 30px; */
+}
+
+.footer > ol > li {
+	display: inline-block;
+}
+
+.footer > ol > li :nth-child(odd) {
+	color: hotpink;
+}
+
+.footer > ol li {
+	font-family: "Nosifer", cursive;
+	font-size: 1.6em;
+}
+
+@media (max-width: 576px) {
+	.site {
+		grid-template: 1fr 1fr 1fr;
+		grid-template-areas:
+			"header header."
+			".title title"
+			"main main main"
+			"sidebar sidebar."
+			".footer.";
+	}
+}
