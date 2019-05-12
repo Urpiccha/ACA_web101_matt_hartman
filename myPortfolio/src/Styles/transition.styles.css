@@ -1,0 +1,80 @@
+main {
+	width: 50px;
+	margin: auto;
+}
+
+main:hover div:nth-child(odd) {
+	height: 100px;
+	width: 100px;
+	margin-left: -25px;
+	transform: translate(600px) rotate(360deg);
+	transition: all 4s ease-in-out;
+}
+
+main div:nth-child(even) {
+	transition: margin-left 2s, height 2s, width 2s, left 1s 1s, transform 1s 2s;
+}
+
+main:hover div:nth-child(even) {
+	height: 25px;
+	width: 25px;
+	margin-left: 12.5px;
+	transform: translate(-600px) rotate(-360deg);
+}
+
+div {
+	height: 50px;
+	width: 50px;
+	border: 2px hotpink solid;
+	text-align: center;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.a {
+	background: red;
+}
+
+.b {
+	background: blue;
+}
+
+.c {
+	background: pink;
+}
+
+.d {
+	background: purple;
+}
+
+.e {
+	background: lightgreen;
+}
+
+.f {
+	background: lightskyblue;
+}
+
+.g {
+	background: burlywood;
+}
+
+.h {
+	background: cyan;
+}
+
+.i {
+	background: lightcoral;
+}
+
+.j {
+	background: forestgreen;
+}
+
+.k {
+	background: fuchsia;
+}
+
+.l {
+	background: gold;
+}
