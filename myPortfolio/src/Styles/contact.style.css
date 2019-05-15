@@ -1,0 +1,52 @@
+.site {
+	background: lightcyan;
+	display: inline-flex;
+	flex-direction: row;
+}
+
+.nav {
+	background: #ffffff;
+	color: black;
+	list-style: none;
+	text-align: right;
+	padding: 20px 0 20px 0;
+}
+
+.nav li {
+	display: inline-block;
+	padding: 0 25px 0 25px;
+	font-size: 20px;
+}
+
+.nav li a {
+	text-decoration: none;
+	color: firebrick;
+}
+
+.nav li a:hover {
+	color: seagreen;
+}
+
+.welcome {
+	color: black;
+	float: left;
+	padding-left: 20px;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: "Germania One";
+}
+
+.welcome a {
+	text-decoration: none;
+	color: firebrick;
+}
+
+.banner {
+	width: 100%;
+	display: block;
+}
+
+.banner-img {
+	width: 100%;
+	display: block;
+}
