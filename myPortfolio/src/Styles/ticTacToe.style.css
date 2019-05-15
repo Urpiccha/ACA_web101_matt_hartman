@@ -1,0 +1,64 @@
+.container {
+	padding-top: 15px;
+	padding-left: 15px;
+	height: 350px;
+	width: 350px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	flex-direction: row wrap;
+	border: 5px double black;
+}
+
+div {
+	height: 100px;
+	width: 100px;
+	text-align: center;
+}
+.top-left {
+	border-bottom: 2px solid hotpink;
+	border-right: 2px solid hotpink;
+}
+
+.top-center {
+	border-bottom: 2px solid hotpink;
+	border-left: 2px solid hotpink;
+	border-right: 2px solid hotpink;
+}
+
+.top-right {
+	border-bottom: 2px solid hotpink;
+	border-left: 2px solid hotpink;
+}
+
+.center-left {
+	border-bottom: 2px solid hotpink;
+	border-right: 2px solid hotpink;
+	border-top: 2px solid hotpink;
+}
+
+.center-center {
+	border: 2px solid hotpink;
+}
+
+.center-right {
+	border-bottom: 2px solid hotpink;
+	border-left: 2px solid hotpink;
+	border-top: 2px solid hotpink;
+}
+
+.bottom-left {
+	border-top: 2px solid hotpink;
+	border-right: 2px solid hotpink;
+}
+
+.bottom-center {
+	border-left: 2px solid hotpink;
+	border-top: 2px solid hotpink;
+	border-right: 2px solid hotpink;
+}
+
+.bottom-right {
+	border-left: 2px solid hotpink;
+	border-top: 2px solid hotpink;
+}
