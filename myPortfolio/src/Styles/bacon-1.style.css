@@ -1,0 +1,14 @@
+body {
+	background: #34a8dd;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	flex-flow: column wrap;
+	padding: 20px 0 20px 0;
+}
+
+h1 {
+	text-align: center;
+}
