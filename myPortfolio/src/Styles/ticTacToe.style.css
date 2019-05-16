@@ -25,6 +25,7 @@ div {
 .top-left {
 	border-bottom: 2px solid hotpink;
 	border-right: 2px solid hotpink;
+	text-align: center;
 }
 
 .top-center {
