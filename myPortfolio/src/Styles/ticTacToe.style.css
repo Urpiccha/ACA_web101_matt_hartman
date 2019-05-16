@@ -1,4 +1,6 @@
 .container {
+	margin-top: 50px;
+	margin-left: 450px;
 	padding-top: 15px;
 	padding-left: 15px;
 	height: 350px;
@@ -8,6 +10,11 @@
 	grid-template-rows: 1fr 1fr 1fr;
 	flex-direction: row wrap;
 	border: 5px double black;
+}
+
+.btns {
+	display: inline;
+	margin-left: 450px;
 }
 
 div {
