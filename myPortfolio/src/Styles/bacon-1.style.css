@@ -1,0 +1,52 @@
+body {
+	background: #34a8dd;
+	font-family: "Slabo 27px", serif;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	flex-flow: column wrap;
+	margin: 100px;
+	padding: 50px;
+	background: ivory;
+	color: #34a8dd;
+	border: 2px black solid;
+}
+
+article {
+	font-size: 30px;
+}
+
+h1 {
+	position: relative;
+	text-align: center;
+	/* transform: translateY(150px) translateX(5px); */
+	font-size: 80px;
+	text-decoration: underline;
+	font-family: "Akronim", cursive;
+	font-weight: 100;
+}
+
+#nav a {
+	display: inline-block;
+	padding: 3px;
+	text-decoration: none;
+}
+
+li {
+	display: inline-block;
+	float: right;
+}
+
+footer {
+	background: #1b1b1b;
+	height: 100px;
+	text-align: right;
+	color: ivory;
+	margin-top: 20px;
+}
+
+.footer {
+	transform: translateY(80px) translateX(-5px);
+}
