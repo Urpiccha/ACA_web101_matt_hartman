@@ -1,0 +1,75 @@
+body {
+	background: hotpink;
+}
+
+#container {
+	text-align: center;
+}
+
+h1 {
+	font-family: "Faster One", cursive;
+	font-size: 90px;
+	margin: 0px auto;
+	padding: 20px;
+}
+
+ul {
+	padding: 20px;
+}
+
+li {
+	background-color: black;
+	color: cyan;
+	font-size: 20px;
+	list-style-type: none;
+	text-align: center;
+	width: 20%;
+	margin: 0px auto;
+	border-radius: 10px;
+	border: 2px solid yellow;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.item {
+	background: black;
+	color: cyan;
+}
+
+input[type="text"] {
+	background: black;
+	color: cyan;
+	font-size: 12px;
+	padding: 6px;
+	border: 2px solid yellow;
+	border-radius: 10px;
+}
+
+input[type="text"] {
+	background: black;
+	color: cyan;
+	font-size: 12px;
+	padding: 6px;
+	border: 3px solid yellow;
+	border-radius: 10px;
+}
+
+p {
+	background-color: #fff;
+	color: #666;
+	padding: 10px;
+	display: inline-block;
+	margin: 20px auto 20px auto;
+	width: 80%;
+	border-radius: 10px;
+	text-align: center;
+}
+
+#newButton {
+	display: none;
+}
+
+#emptyField {
+	margin-top: 60px;
+	width: 10%;
+}
