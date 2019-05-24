@@ -26,6 +26,7 @@ header > h1 {
 	padding: 25px;
 	margin: auto;
 	border: 5px double yellow;
+	border-radius: 20px;
 }
 
 header > p {
@@ -36,6 +37,7 @@ header > p {
 .container {
 	display: grid;
 	grid-template: 1fr 1fr 1fr;
+	margin-top: 10px;
 	/* background: blue; */
 }
 
@@ -101,12 +103,11 @@ img {
 	width: 300px;
 }
 
-.to-do {
+/* .to-do {
 	display: flex;
 	/* background: midnightblue; */
-	height: 300px;
-}
-
+/* height: 300px;
+} */
 section {
 	font-weight: 300;
 	margin: 30px;
@@ -134,18 +135,102 @@ section > article {
 .date {
 	border: 5px dashed hotpink;
 }
+
+/* body {
+	background: hotpink;
+} */
+
+#container {
+	text-align: center;
+}
+
+h1 {
+	font-family: "Faster One", cursive;
+	font-size: 90px;
+	margin: 0px auto;
+	padding: 20px;
+}
+
+.comment {
+	font-family: "Ewert", cursive;
+	font-size: 70px;
+	margin: 0px auto;
+	padding: 20px;
+}
+
+ul {
+	padding: 20px;
+}
+
+li {
+	background-color: black;
+	color: cyan;
+	font-size: 20px;
+	list-style-type: none;
+	text-align: center;
+	width: 50%;
+	margin: 0px auto;
+	border-radius: 10px;
+	border: 2px solid yellow;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.item {
+	background: black;
+	color: cyan;
+}
+
+input[type="text"] {
+	background: black;
+	color: cyan;
+	font-size: 12px;
+	padding: 6px;
+	border: 2px solid yellow;
+	border-radius: 10px;
+}
+
+input[type="text"] {
+	background: black;
+	color: cyan;
+	font-size: 12px;
+	padding: 6px;
+	border: 3px solid yellow;
+	border-radius: 10px;
+}
+
+p {
+	background-color: #fff;
+	color: #666;
+	padding: 10px;
+	display: inline-block;
+	margin: 20px auto 20px auto;
+	width: 80%;
+	border-radius: 10px;
+	text-align: center;
+}
+
+#newButton {
+	display: none;
+}
+
+#emptyField {
+	margin-top: 60px;
+	width: 30%;
+}
+/* // end */
 /* #to-do {
 	height: 300px;
 	width: 300px;
 	float: right;
 } */
 
-.header-2 > ul {
+/* .header-2 > ul {
 	margin: 0;
 	padding: 0;
-}
+} */
 
-ul li {
+/* ul li {
 	cursor: pointer;
 	position: relative;
 	padding: 12px 8px 12px 40px;
@@ -197,10 +282,10 @@ ul li.checked::before {
 
 .header-2 {
 	/* background-color: firebrick; */
-	padding: 30px 40px;
+/* padding: 30px 40px;
 	color: white;
 	text-align: center;
-}
+} */
 
 .header:after {
 	content: "";
@@ -211,16 +296,16 @@ ul li.checked::before {
 input {
 	margin: 0;
 	border: none;
-	border-radius: 0;
-	width: 75%;
+	border-radius: 20px;
+	width: 20%;
 	padding: 10px;
-	float: left;
+	/* float: left; */
 	font-size: 16px;
 }
 
 .add-button {
 	padding: 10px;
-	width: 25%;
+	width: 15%;
 	background: aquamarine;
 	color: grey;
 	float: left;
@@ -249,7 +334,8 @@ input {
 	h1 {
 		background: hotpink;
 		color: dodgerblue;
-		border: 5px dashed yellow;
+		border: 5px double yellow;
+		border-radius: 10px;
 	}
 }
 

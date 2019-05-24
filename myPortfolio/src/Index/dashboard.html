@@ -4,11 +4,13 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<script src="../Scripts/location.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Ewert&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="../styles/dashboard-style.css" />
 		<title>Dashboard</title>
 	</head>
 	<header>
-		<h1>Some Inspirational Comment</h1>
+		<h1 class="comment">Some Inspirational Comment</h1>
 	</header>
 	<body>
 	<div class="container">
@@ -40,29 +42,32 @@
 		</div>
 	</div>
 	<footer>
-			<section id="footer">			
-				<article>
-					<div id="to-do" class="header-2">
-						<h2>My To Do List</h2>
-						<input type="text" id="myInput" placeholder="Title...">
-						<span onclick="newElement()" class="add-button">Add</span>
-					</div>
-					<ul id="list">
-						<li class="checked">Homework</li>
-						<li>Pay bills</li>
-						<li>Shower</li>
-						<li>Groceries</li>
-						<li>Find Engagement Ring</li>
-						<li>Clean House</li>
-					</ul>
-					</article>
-
+			<section id="footer">
+					<div id="container">
+							<h1 id="header">To-do list</h1>
+							<ul>
+								<li class="item">Pay Bills</li>
+							</ul>
+							<div id="newButton"><button href="#">new item</button></div>
+							<form id="newItemForm">
+								<input type="text" id="emptyField" placeholder="Type on Me!!!" />
+								<input type="submit" id="add" value="add" />
+							</form>
+						</div>
+						<script
+							src="https://code.jquery.com/jquery-1.12.3.js"
+							integrity="sha256-1XMpEtA4eKXNNpXcJ1pmMPs8JV+nwLdEqwiJeCQEkyc="
+							crossorigin="anonymous"
+						></script>
+						<script src="../Scripts/toDo.js"></script>
 					<div class="date">
-							<img src="calendar_widget.jpg" alt="calendar image">
+							<img src="../Images/calendar_widget.jpg" alt="calendar image">
 					</div>
 					<div class="empty">
 						<h2>
-							<p>&nbspSome Other Widget</p>
+							<button onclick="getLocation()">Find Me!</button>
+							<button type="reset" value="Reset">Reset</button>
+								<p id="coordinates"></p>
 						</h2>
 					</div>
 		</section>
