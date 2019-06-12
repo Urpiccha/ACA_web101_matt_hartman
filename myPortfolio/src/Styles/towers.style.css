@@ -1,0 +1,156 @@
+html,
+button,
+input,
+select,
+textarea {
+	color: #222;
+}
+
+body {
+	font-size: 1em;
+	color: aqua;
+	font-family: "Cherry Swash", cursive;
+	line-height: 1.4;
+	margin: 0;
+	padding: 0;
+	background: url(../Images/monsters.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+::-moz-selection {
+	background: #b3d4fc;
+	text-shadow: none;
+}
+
+::selection {
+	background: #b3d4fc;
+	text-shadow: none;
+}
+
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
+}
+
+img {
+	vertical-align: middle;
+}
+
+fieldset {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+textarea {
+	resize: vertical;
+}
+
+.chromeframe {
+	margin: 0.2em 0;
+	background: #ccc;
+	color: #000;
+	padding: 0.2em 0;
+}
+
+#wrapper {
+	width: 820px;
+	height: 450px;
+	padding: 10px 0;
+	margin: 10px auto;
+	border-radius: 10px;
+	background-color: rgba(97, 97, 97, 0.61);
+}
+
+#header {
+	margin: 0 10px 10px 0;
+	width: 510px;
+	height: 160px;
+	border-radius: 8px;
+	background-color: #ccc;
+	position: relative;
+	float: right;
+}
+
+#board {
+	margin: 0 10px;
+	width: 510px;
+	height: 250px;
+	border-radius: 8px;
+	background-color: #ccc;
+	position: relative;
+	float: right;
+}
+
+#moves {
+	margin: 0 0 10px 10px;
+	width: 280px;
+	height: 420px;
+	border-radius: 8px;
+	background-color: #ccc;
+	position: relative;
+	float: left;
+}
+#moves > ol {
+	padding: 3px;
+}
+
+#moves > ol {
+	padding: 2px 0 6px 30px;
+	font-size: 0.9em;
+}
+
+#board .post {
+	/* post styling*/
+	height: 180px;
+	width: 20px;
+	background-color: #444;
+	background: url(../Images/forest.jpg) no-repeat center center;
+	box-shadow: 5px 3px 10px #2b211e;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	position: absolute;
+	z-index: 10;
+}
+
+.disc {
+	height: 18px;
+	border: 1px solid #2c1911;
+	border-radius: 6px;
+	background-color: burlywood;
+	/* background: url(../Images/bap\copy.png) no-repeat center center; */
+	box-shadow: 3px 3px 6px #331306;
+	position: absolute;
+	z-index: 20;
+}
+
+/* //First post is 112px left
+Center of first post is 122px from left of containing div
+First disc position should be 122px - (First disc width /2)
+First Width width currently set to 50px
+// */
+
+#disc0 {
+	width: 50px;
+	left: 97px; /* 122 - 25 */
+	bottom: 40px;
+}
+
+#disc1 {
+	width: 60px;
+	bottom: 20px;
+	left: 92px; /* 122 - 30 */
+}
+
+#disc2 {
+	width: 70px;
+	bottom: 0;
+	left: 87px; /* 122 - 35 */
+}
