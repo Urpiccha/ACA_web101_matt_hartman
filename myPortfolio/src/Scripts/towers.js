@@ -24,7 +24,7 @@ $(document).ready(function() {
 		} else if (disc == "post2") {
 			disc = 2; // Cloumn Number
 		}
-		game.move_from.push(disc);
+		game.move_from.push(disc); // 0, 1 or 2
 	}
 
 	function update_move_to_array(disc) {
@@ -102,7 +102,7 @@ $(document).ready(function() {
 	});
 }
 
-function send_disc_across ( ) { // Passed localhost.move_to[x]
+function send_disc_across ( ) { // Passed game.move_to[x]
 
 	var left_value = game.col_pos[game.move_to[game.animate_count - 1]];
 
