@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link rel="stylesheet" href="../Styles/slider.style.css" />
+		<title>Image Slider</title>
+	</head>
+	<body>
+		<div>
+			<button onclick="prev()">Prev</button>
+			<img
+				id="slider"
+				src="../Images/crowley.jpg"
+				width="300px"
+				height="200px"
+			/>
+			<button onclick="next()">Next</button>
+		</div>
+	</body>
+	<script>
+		var images = [
+			"../Images/crowley.jpg",
+			"../Images/baphomet.png",
+			"../Images/forest.jpg",
+			"../Images/monsters.jpg",
+			"../Images/internetkid.gif",
+			"../Images/gon - git.jpg"
+		];
+		var num = 0;
+
+		function next() {
+			var slider = document.getElementById("slider");
+			num++;
+			if (num >= images.length) {
+				num = 0;
+			}
+			slider.src = images[num];
+		}
+
+		function prev() {
+			var slider = document.getElementById("slider");
+			num--;
+			if (num < 0) {
+				num = images.length - 1;
+			}
+			slider.src = images[num];
+		}
+	</script>
+</html>
